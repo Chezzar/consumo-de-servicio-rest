@@ -1,0 +1,6 @@
+C:\Users\César\source\repos\TestMVC\ServicioDePaisesBD\bin\ServicioDePaisesBD.dll.config
+C:\Users\César\source\repos\TestMVC\ServicioDePaisesBD\bin\ServicioDePaisesBD.dll
+C:\Users\César\source\repos\TestMVC\ServicioDePaisesBD\bin\ServicioDePaisesBD.pdb
+C:\Users\César\source\repos\TestMVC\ServicioDePaisesBD\obj\Debug\ServicioDePaisesBD.csproj.CoreCompileInputs.cache
+C:\Users\César\source\repos\TestMVC\ServicioDePaisesBD\obj\Debug\ServicioDePaisesBD.dll
+C:\Users\César\source\repos\TestMVC\ServicioDePaisesBD\obj\Debug\ServicioDePaisesBD.pdb

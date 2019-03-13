@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+<h1>@Html.ActionLink("Caligula Calendula y el lento caminar de una tarantula","Index","Test" ,null, new { @class = "label-success" })</h1>
+@{Html.RenderPartial("_LoginPartial"); }
+
+@{ 
+
+    //creamos una lista con items para crear un dropdown list
+    List<SelectListItem> items = new List<SelectListItem>() {
+       new SelectListItem() { Text = "Si" , Value = "1"},
+       new SelectListItem() { Text = "no",Value = "2"}
+    };
+
+}
+
+@Html.DropDownList("el Drop Down List",items);
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
+
+<form action="Contact" method="post">
+
+    <input type="text" name="nombre" value="nombre" />
+    <button type ="submit" name="Enviar"></button>
+
+</form>

@@ -1,0 +1,9 @@
+﻿Referencias de el servicio web de sumas por SOeAP
+http://www.dneonline.com/calculator.asmx
+
+Referencias de codigos por REST
+http://www.groupkt.com/post/5c85b92f/restful-rest-webservice-to-get-and-search-states-and-territories-of-a-country.htm
+
+esta en especifico es la direccion
+http://services.groupkt.com/state/get/IND/all <----  necesitamos deserializarla y crear un objeto del tipo recibido 
+													 para poderlo desplegar con algun formato en el navegador
